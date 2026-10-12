@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    color: #ad8f6f;
+  
+}
+body{
+    display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;  
+  
+}
+.contenedorBig{
+    width: 390px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;     
+    overflow: scroll;
+
+}
+.daysTGT{
+       display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;   
+    width: 75%;
+    height: 15%;
+    border:dashed 2px #5c4d3d;
+    border-radius: 30px;
+   
+}
+.bq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    text-align: center;
+}
+.imgs{
+    max-width: 80px;
+    max-height: 80px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.mainQU{
+    font-size: 12px;
+    height: 10%;
+    width: 80%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:3px;
+      box-shadow: 5px 5px 10px 10px rgb(92, 77, 61,0.3) ;
+
+}
+.mainQU img{
+    margin: 15px;
+}
+
+.mainQU div{
+    width: 70%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+.mainQU div input{
+    background-color: none;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px rgb(233, 214, 130,0.3);
+    width: 78%;
+}
+.bq p{
+    margin: 2px;
+}
+  .navbar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:#f8f4ec;
+    border-radius:32px;
+    border: dashed 2px #5c4d3d ;
+    padding:16px 14px;
+    width:80%;
+    margin:0 auto;
+    gap:6px;
+  }
+  .navbar svg{
+    width:24px;
+    height:24px;
+    color:#9c8f7c;
+    stroke-width:1.6;
+    cursor:pointer;
+  }
+  .navbar .active svg{
+    color:#5c4d3d;
+    stroke-width:1.8;
+  }
+
+
+/* aqui empieza el codigo de agregaracthtml */
+.plan{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: red;
+    width: 90%;
+    border-radius: 30px;
+}
+.txtPlan{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row: 1fr;
+    align-items: center;
+    flex-wrap: nowrap;
+    width:90%;
+    height:30%;
+    margin:5px;
+    gap :5px;
+    background-color: yellow;
+
+}
+.txtPlan p{
+    width: 30%;
+}
+.txtPlan p:nth-child(4){
+  grid-column: 1 / 4; 
+  text-align: center;
+  background-color: red;
+  width: 100%;
+}
+.plan a img {
+
+    width: 100%; 
+    height: 100%;
+    object-fit: fill;
+}
+.plan a{
+    width: 90%;
+    height: 60%;
+    background-color: blue;
+    border-radius: 30px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.supBar{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4%;
+    margin-left: 1  5px;
+}
+
+.supBar a{
+    border-radius: 50%;
+    width: 8%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;    
+    box-shadow: -1px 2px 2px 2px rgb(242, 222, 141);
+    text-decoration: none;
+}
+.cajabig{
+    width: 90%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;gap: 5px;
+}
+
+.cajabig div {
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+   
+}
